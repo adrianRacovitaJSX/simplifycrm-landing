@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 const font = DM_Sans({ subsets: ["latin"] });
 
@@ -12,6 +14,7 @@ export const metadata: Metadata = {
   description:
     "Simplifica la gestión de tu negocio con Simplify CRM. Software CRM fácil de usar para pymes y autónomos. Gestiona clientes, facturación, inventario y más, ¡todo en un solo lugar! Prueba gratis.",
 };
+
 
 export default function RootLayout({
   children,
@@ -32,6 +35,7 @@ export default function RootLayout({
           <Toaster />
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-8YZPG71WW6" />
     </html>
   );
 }
