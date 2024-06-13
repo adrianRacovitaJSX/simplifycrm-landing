@@ -5,7 +5,7 @@ import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const font = DM_Sans({ subsets: ["latin"] });
 
@@ -34,6 +34,7 @@ export default function RootLayout({
           {children}
           <Toaster />
         </ThemeProvider>
+        <SpeedInsights />
       </body>
       <GoogleAnalytics gaId="G-8YZPG71WW6" />
     </html>
