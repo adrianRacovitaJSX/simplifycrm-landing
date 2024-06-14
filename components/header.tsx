@@ -12,7 +12,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full sticky top-0 z-50 bg-white dark:bg-black flex justify-between py-3 px-5 items-center backdrop-blur-lg backdrop-filter bg-opacity-30 dark:backdrop-blur-2xl dark:backdrop-filter dark:bg-opacity-60 dark:border-b">
+      <div className="flex items-center justify-center bg-gradient-to-t from-emerald-500 to-emerald-600 py-1 top-0 sticky z-50">
+        <h3 className="font-semibold antialiased text-sm">¡Iris IA: Disponible desde octubre de 2024! 🎉</h3>
+      </div>
+      <div className="w-full sticky top-7 z-50 bg-white dark:bg-black flex justify-between py-3 px-5 items-center backdrop-blur-lg backdrop-filter bg-opacity-30 dark:backdrop-blur-2xl dark:backdrop-filter dark:bg-opacity-60 dark:border-b">
         <aside>
           <h2 className="font-bold text-2xl text-black dark:text-white">
             <a href="/">Simplify</a>

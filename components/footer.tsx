@@ -22,15 +22,7 @@ const Footer = () => {
             <p className="text-sm mt-2 mb-2">© 2024 Simplify CRM</p>
             <div className="flex space-x-4 mt-3 justify-center md:justify-start">
               <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="dark:text-white hover:text-emerald-500 transition duration-300"
-              >
-                <FaFacebookF size={16} />
-              </a>
-              <a
-                href="https://www.twitter.com"
+                href="https://x.com/simplifycrm_es"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="dark:text-white hover:text-emerald-500 transition duration-300"
@@ -38,7 +30,7 @@ const Footer = () => {
                 <FaTwitter size={16} />
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/simplifycrm.es/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="dark:text-white hover:text-emerald-500 transition duration-300"

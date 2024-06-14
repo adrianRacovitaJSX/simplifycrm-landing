@@ -452,7 +452,7 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "IA para tu negocio",
+    title: "Iris: IA para tu negocio",
     description: (
       <span className="text-sm">
         Tu propia inteligencia artificial con el contexto de tu empresa. Pide lo
