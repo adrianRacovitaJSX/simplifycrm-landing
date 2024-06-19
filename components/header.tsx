@@ -34,14 +34,14 @@ const Header = () => {
           >
             <span>Beneficios</span>
           </a>
-          {/*  <a
+           <a
             href="https://docs.simplifycrm.es"
             target="_blank"
             className="dark:hover:text-emerald-400 hover:text-emerald-800"
           >
             <span>Documentación</span>
           </a> 
-          <a
+          {/* <a
             href="/blog"
             className="dark:hover:text-emerald-400 hover:text-emerald-800"
           >
